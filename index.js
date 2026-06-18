@@ -24,7 +24,7 @@ function isPalindrome(word){
 function calculateDiscountedPrice(originalPrice, discountPercentage){
     const discountAmount = originalPrice * (discountPercentage / 100);
     const discountedPrice = originalPrice - discountAmount;    
-
+    return discountedPrice;
 }
 
 
